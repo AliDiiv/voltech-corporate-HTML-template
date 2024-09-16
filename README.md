@@ -23,7 +23,7 @@ This is a modern, responsive HTML template designed specifically for corporate w
 
 1. **Clone or Download** the repository:
     ```bash
-    git clone https://github.com/username/company-template.git
+    git clone https://github.com/AliDiiv/voltech-corporate-HTML-template.git
     ```
 2. **Modify** the HTML, CSS, and JS files to customize the template for your business.
 3. Upload to your web hosting platform and you’re good to go!
