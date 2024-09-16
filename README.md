@@ -19,6 +19,13 @@ This is a modern, responsive HTML template designed specifically for corporate w
 4. **Products**: Showcase your products with images and descriptions.
 5. **Contact**: Contact form and company details for easy client outreach.
 
+## 🖼️ Preview
+
+Here’s a preview of www.voltechco.com the :
+
+![Memory Game Preview](preview.png)
+
+
 ## How to Use 📦
 
 1. **Clone or Download** the repository:
