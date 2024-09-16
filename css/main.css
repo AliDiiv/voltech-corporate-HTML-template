@@ -1,0 +1,300 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .carousel-content {
+    margin: 30% auto !important;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .carousel-content {
+    margin: 20% auto !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .carousel-content {
+    margin: 12% auto !important;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .carousel-content {
+    margin: 10% auto !important;
+  }
+}
+
+/* Products */
+.product-bx {
+  text-align: center;
+  /* border:  1px solid #343131b2; */
+  box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 7px rgba(94, 104, 121, 0.945);
+  border-radius: 10px;
+  margin: 10px;
+  min-height: 200px;
+  padding: 10px;
+}
+
+.product-bx:hover {
+  box-shadow: inset 3px 3px 7px #ffffff72,
+    inset -3px -3px 7px rgba(94, 104, 121, 0.42);
+}
+
+#products {
+  margin: 50px auto;
+}
+
+.product-bx img {
+  width: 100%;
+  padding: 20px;
+}
+
+/* References */
+/* SVG Map */
+#AZ{
+  fill: rgb(1, 68, 225);
+}
+#AZ:hover{
+  fill: rgb(10, 56, 165);
+}
+
+#TR{
+  fill: rgb(255, 0, 0);
+}
+#TR:hover{
+  fill: rgb(138, 0, 0);
+}
+
+#AE {
+  fill: rgb(255, 0, 0);
+}
+#AE:hover{
+  fill: rgb(138, 0, 0);
+}
+
+#EG {
+  fill: rgb(0, 255, 242);
+}
+#EG:hover{
+  fill: rgb(11, 206, 196);
+}
+
+#NG {
+  fill: rgb(0, 68, 255);
+}
+#NG:hover{
+  fill: rgb(78, 138, 0);
+}
+
+#QA {
+  fill: rgb(0, 255, 242);
+}
+#QA:hover{
+  fill: rgb(11, 206, 196);
+}
+
+#SA {
+  fill: rgb(1, 68, 225);
+}
+#SA:hover{
+  fill: rgb(27, 33, 210);
+}
+
+#TM {
+  fill: rgb(0, 255, 242);
+}
+#TM:hover{
+  fill: rgb(14, 156, 149);
+}
+
+#GE {
+  fill: rgb(0, 255, 242);
+}
+#GE:hover{
+  fill: rgb(0, 255, 242);
+}
+
+#OM {
+  fill: rgb(0, 255, 242);
+}
+#OM:hover{
+  fill: rgb(15, 176, 168);
+}
+
+#SN {
+  fill: rgb(0, 68, 255);
+}
+#SN:hover{
+  fill: rgb(126, 0, 138);
+}
+#DZ {
+  fill: rgb(0, 255, 242);
+}
+#DZ:hover{
+  fill: rgb(0, 126, 105);
+}
+#LY {
+  fill: rgb(0, 68, 225);
+}
+#LY:hover{
+  fill: rgb(0, 60, 138);
+}
+#AO {
+  fill: rgb(0, 68, 255);
+}
+#AO:hover{
+  fill: rgb(126, 0, 138);
+}
+#JO {
+  fill: rgb(0, 255, 242);
+}
+#JO:hover{
+  fill: rgb(11, 206, 196);
+}
+#KW {
+  fill: rgb(0, 255, 242);
+}
+#KW:hover{
+  fill: rgb(11, 206, 196);
+}
+.ag-canvas {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  position: relative;
+  visibility: visible;
+
+  width: 100%;
+  height: 100%;
+  padding: 3rem 1rem;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.ag-canvas_svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin-left: 1rem;
+}
+.ag-canvas_svg path {
+  fill: #b3b3b3;
+  fill-opacity: 1;
+  stroke: rgb(121, 121, 121);
+  stroke-opacity: 1;
+  stroke-width: 0.5;
+  transition: 0.5s;
+}
+/* Map */
+.map-image img{
+  margin-left: 23%;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.box-map-turky{
+  z-index: 100;
+  display: none;
+  width: 30%;
+  height: auto;
+  position: relative;
+  margin-top: -135px;
+  margin-left: 63%;
+}
+
+.box-map-turky img{
+  width: 150px;
+  height: 130px;
+}
+
+.box-map-turky .text-map{
+  width: 300px;
+  height: 130px;
+  padding: 4px 20px;
+  margin-top: -130px;
+  left: 40%;
+  z-index: 20;
+  position: relative;
+
+}
+
+.box-map-turky .text-map p{
+  font-size: 10px;
+  width: 300px;
+
+}
+
+
+.box-map-chin{
+  z-index: 100;
+  display: none;
+  width: 30%;
+  height: auto;
+  position: relative;
+  margin-top: -180px;
+  margin-left: 60%;
+}
+
+.box-map-chin img{
+  width: 150px;
+  height: 130px;
+}
+
+.box-map-chin .text-map{
+  width: 300px;
+  height: 130px;
+  padding: 4px 20px;
+  margin-top: -130px;
+  left: 40%;
+  z-index: 20;
+  position: relative;
+
+}
+
+.box-map-chin .text-map p{
+  font-size: 10px;
+  width: 200px;
+
+}
+
+.point .circle-point{
+  content: "";
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  z-index: 20;
+  border-radius: 50%;
+  margin-top: -325px;
+  margin-left: 690px;
+  transition: all 0.3s ease;
+}
+.point .circle-point2{
+  content: "";
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  z-index: 20;
+  border-radius: 50%;
+  margin-top: -60px;
+  margin-left: 630px;
+}
+
+@media screen and (max-width: 767px) {
+  .ag-canvas {
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    height: auto;
+    padding: 4rem 1rem 1rem;
+  }
+  .ag-canvas_svg {
+    max-height: calc(100% - 6rem);
+    margin-left: 0;
+  }
+}
